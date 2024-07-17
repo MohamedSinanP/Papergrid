@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 38px;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #232222;
+    cursor: pointer;
+}
+
+.header1-1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.header1-1 a {
+    text-decoration: none;
+}
+
+.img1 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.header2 {
+    background-color: black;
+    width: 100%;
+    height: 69px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.img2 {
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    right: 370px;
+}
+
+.img2-1 {
+    width: 174px;
+    height: 40px;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.text1 {
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 40px;
+}
+
+.text2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 80px;
+}
+
+.text2:hover {
+    text-decoration: underline;
+}
+
+.text3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 120px;
+}
+
+.text3:hover {
+    text-decoration: underline;
+}
+
+.text4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 160px;
+}
+
+.text4:hover {
+    text-decoration: underline;
+}
+
+.img2-2 {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 740px;
+}
+
+.img2-3 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 740px;
+    top: 2px;
+}
+
+.bp {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bpimg {
+    max-width: 350px;
+    height: 350px;
+    margin: 20px;
+}
+
+.bp2 {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+}
+
+.bp2img {
+    width: 400px;
+    height: 500px;
+
+}
+
+.ff {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+    left: 85px;
+}
+
+.ff2 {
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: 155px;
+    left: -305px;
+}
+
+.au {
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 75px;
+    padding: 10px;
+    left: 538px;
+    bottom: 290px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.auh {
+    display: flex;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    border-bottom: 1px solid #232222;
+}
+
+.fimg {
+    width: 50px;
+    height: 50px;
+}
+
+.footer2 {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.f2 {
+    cursor: pointer;
+}
+
+.fff {
+    text-decoration: underline;
+}
